@@ -5,12 +5,11 @@ Attribute VB_Name = "Module1"
 Sub TransferToScratch()
 
 '______________________________________________________________________________
-'Author:  Tracy R Kinder
-' c is cell G3 that has the today() function that will be used as a reference to compare to the daily load plan date
-' Two counters are used with a loop to transfer the desired keys over to the scratchpad
-'Date 12/15/19
-'
-'_______________________________________________________________________________
+  'Author:  Tracy R Kinder
+  'c is cell G3 that has the today() function that will be used as reference  'to compare to the daily load plan date
+  'Two counters are used with a loop to transfer the desired keys over to the 'scratchpad  Date 12/15/19
+  '
+  '_______________________________________________________________________________
 
 ' This how I unprotect the master Tabulation sheet in order to process new load planning
 Sheet6.Unprotect "Odundbemru@123456"
